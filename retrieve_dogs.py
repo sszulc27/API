@@ -9,3 +9,4 @@ if resp.status_code != 200:
 
 for item in resp.json()['message'].keys():
     print(item)
+    print(item)
