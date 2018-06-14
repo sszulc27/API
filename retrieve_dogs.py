@@ -7,6 +7,7 @@ if resp.status_code != 200:
     # This means something went wrong.
     print("Error!")
 
-for item in resp.json()['message'].keys():
-    print(item)
-    print(item)
+breed_list = resp.json()['message'].keys()
+
+for dog in breed_list:
+    print(dog)
